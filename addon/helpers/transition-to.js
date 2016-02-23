@@ -8,7 +8,7 @@ export default Helper.extend({
   }).readOnly(),
   compute([routeName, ...params]) {
     let router = get(this, 'router');
-    assert('[ember-route-action-helper] Unable to lookup router', router);
+    assert('[ember-route-action-with-polyfill-helper] Unable to lookup router', router);
     return function(...invocationArgs) {
       let args = params.concat(invocationArgs);
       let transitionArgs = params.length ? [routeName, ...params] : [routeName];

@@ -2,5 +2,5 @@
 'use strict';
 
 module.exports = {
-  name: 'ember-route-action'
+  name: 'ember-route-action-with-polyfill-with-polyfill'
 };

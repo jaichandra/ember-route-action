@@ -1,5 +1,5 @@
 {
-  "name": "ember-route-action",
+  "name": "ember-route-action-with-polyfill",
   "dependencies": {
     "ember": "1.10.1",
     "ember-cli-shims": "0.1.0",

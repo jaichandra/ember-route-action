@@ -1,6 +1,6 @@
 {
-  "name": "ember-route-action-with-polyfill",
-  "version": "0.0.5",
+  "name": "ember-route-action-with-polyfill-with-polyfill",
+  "version": "0.0.6",
   "description": "The default blueprint for ember-cli addons.",
   "directories": {
     "doc": "doc",
@@ -35,6 +35,7 @@
     "ember-disable-prototype-extensions": "^1.0.0",
     "ember-disable-proxy-controllers": "^1.0.1",
     "ember-export-application-global": "^1.0.4",
+    "ember-getowner-polyfill": "1.0.0",
     "ember-resolver": "^2.0.3",
     "ember-try": "~0.0.8"
   },
