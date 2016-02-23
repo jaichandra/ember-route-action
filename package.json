@@ -15,12 +15,12 @@
   "engines": {
     "node": ">= 0.10.0"
   },
-  "author": "",
+  "author": "jaichandra",
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.2.0",
     "ember-ajax": "0.7.1",
-    "ember-cli": "2.3.0-beta.1",
+    "ember-cli": "1.13.8",
     "ember-cli-app-version": "^1.0.0",
     "ember-cli-dependency-checker": "^1.2.0",
     "ember-cli-github-pages": "0.0.6",

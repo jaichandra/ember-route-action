@@ -9,11 +9,11 @@ Then this addon is for you. This is a very simple addon that gives you access to
 
 ## Requirements
 
-Requires Ember `2.3.0+` ( we use `Ember.getOwner` API, which was introduced in 2.3.0 ).
+This addon uses below polyfill addon for `getOwner` and is compatible with ember 1.10.1 and above.
+
+If you have ember 2.3+, the you can use https://github.com/peec/ember-route-action instead.
 
 #### Polyfill for getOwner:
-
-if you don't have ember 2.3+ you can install a polyfill addon:
 https://github.com/rwjblue/ember-getowner-polyfill
 
 ## Installation

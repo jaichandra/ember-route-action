@@ -1,5 +1,6 @@
 import Ember from 'ember';
-const { Helper, assert, computed, getOwner, get } = Ember;
+import getOwner from 'ember-getowner-polyfill';
+const { Helper, assert, computed, get } = Ember;
 
 export default Helper.extend({
   router: computed(function() {
